@@ -37,6 +37,7 @@ return require('packer').startup(function(use)
     use { 'simrat39/inlay-hints.nvim' }
 
     use 'Mofiqul/dracula.nvim'
+    use 'rebelot/kanagawa.nvim'
     use 'vim-airline/vim-airline'
     use 'vim-airline/vim-airline-themes'
 
