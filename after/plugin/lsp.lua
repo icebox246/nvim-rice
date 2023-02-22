@@ -34,6 +34,8 @@ lsp.setup_nvim_cmp({
     })
 })
 
+local ih = require("inlay-hints")
+
 lsp.on_attach(function(client, bufnr)
     local opts = { buffer = bufnr, remap = false }
 
@@ -41,6 +43,12 @@ lsp.on_attach(function(client, bufnr)
     vim.keymap.set("n", "K", function() vim.lsp.buf.hover() end, opts)
     vim.keymap.set("n", "<leader>f", function() vim.lsp.buf.code_action() end, opts)
     vim.keymap.set("n", "<leader>r", function() vim.lsp.buf.rename() end, opts)
+
+    ih.on_attach(client, bufnr)
 end)
 
 lsp.setup()
+
+vim.diagnostic.config({
+    virtual_text = true,
+})

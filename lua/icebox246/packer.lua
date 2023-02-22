@@ -34,6 +34,7 @@ return require('packer').startup(function(use)
             { 'rafamadriz/friendly-snippets' }, -- Optional
         }
     }
+    use { 'simrat39/inlay-hints.nvim' }
 
     use 'Mofiqul/dracula.nvim'
     use 'vim-airline/vim-airline'
