@@ -45,5 +45,9 @@ return require('packer').startup(function(use)
     use 'tpope/vim-surround'
     use 'tpope/vim-fugitive'
 
+    use 'junegunn/vim-easy-align'
+
     use 'ThePrimeagen/vim-be-good'
+
+    use 'habamax/vim-godot'
 end)
