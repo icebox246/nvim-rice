@@ -14,3 +14,5 @@ Packages I use:
 - `tpope/vim-commentary` - better automatic commenting
 - `tpope/vim-surround` - tools for surrounding
 - `tpope/vim-fugitive` - git integration
+- `junegunn/vim-easy-align` - for smart text aligning (eg. in LaTeX tables)
+- `habamax/vim-godot` - godot integration for vim
