@@ -1,4 +1,5 @@
 local lsp = require('lsp-zero')
+local lspconfig = require('lspconfig')
 
 lsp.preset('recommended')
 
@@ -46,6 +47,12 @@ lsp.on_attach(function(client, bufnr)
 
     ih.on_attach(client, bufnr)
 end)
+
+if lspconfig['zls']  then
+    lspconfig.zls.setup {
+        path = '/usr/bin/zls'
+    }
+end
 
 lsp.setup()
 
