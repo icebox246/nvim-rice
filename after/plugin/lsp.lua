@@ -50,7 +50,7 @@ end)
 
 if lspconfig['zls']  then
     lspconfig.zls.setup {
-        path = '/usr/bin/zls'
+        path = '/home/adam/.local/bin/zls',
     }
 end
 
