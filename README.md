@@ -2,7 +2,7 @@
 
 Packages I use:
 
-- `wbthomason/packer.nvim` - package manager
+- `folke/lazy.nvim` - package manager
 - `nvim-telescope/telescope.nvim` - fuzzy finder
 - `nvim-treesitter/nvim-treesitter` - parsing and highlighting
 - `VonHeikemen/lsp-zero.nvim` - lsp managing plugin
