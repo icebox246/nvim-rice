@@ -1,1 +1,1 @@
-vim.cmd.AirlineTheme('base16_dracula')
+vim.cmd.AirlineTheme('base16_embers')
