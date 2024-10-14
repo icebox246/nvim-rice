@@ -4,7 +4,6 @@ local lspconfig = require('lspconfig')
 lsp.preset('recommended')
 
 lsp.ensure_installed({
-    'tsserver',
     'clangd',
     'rust_analyzer',
 })
@@ -47,12 +46,6 @@ lsp.on_attach(function(client, bufnr)
 
     ih.on_attach(client, bufnr)
 end)
-
-if lspconfig['zls']  then
-    lspconfig.zls.setup {
-        path = '/home/adam/.local/bin/zls',
-    }
-end
 
 lsp.setup()
 
