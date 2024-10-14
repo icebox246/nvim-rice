@@ -45,7 +45,6 @@ require('lazy').setup({
     },
     'simrat39/inlay-hints.nvim',
 
-    'Mofiqul/dracula.nvim',
     'rebelot/kanagawa.nvim',
     'vim-airline/vim-airline',
     'vim-airline/vim-airline-themes',
