@@ -8,8 +8,7 @@ Packages I use:
 - `VonHeikemen/lsp-zero.nvim` - lsp managing plugin
 - `simrat39/inlay-hints.nvim` - inlay hints suplementary plugin
 - `rebelot/kanagawa.nvim` - kanagawa colorscheme
-- `vim-airline/vim-airline` - cool looking status line
-- `vim-airline/vim-airline-themes` - themes for status line
+- `nvim-lualine/lualine.nvim` - cool looking status line
 - `tpope/vim-commentary` - better automatic commenting
 - `tpope/vim-surround` - tools for surrounding
 - `tpope/vim-fugitive` - git integration

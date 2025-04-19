@@ -22,3 +22,6 @@ vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><
 -- Half screen jumping
 vim.keymap.set('n', '<C-u>', "<C-u>zz")
 vim.keymap.set('n', '<C-d>', "<C-d>zz")
+
+-- Format
+vim.keymap.set('n', '<leader>gh', function() vim.cmd.ClangdSwitchSourceHeader() end)
